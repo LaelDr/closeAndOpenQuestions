@@ -1,0 +1,54 @@
+/* עיצוב עבור הודעות הבוט */
+.bot-message {
+    background-color: #e9f7ef; /* צבע רקע בהיר */
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    text-align: right;
+    color: #2c3e50;
+    font-size: 16px;
+    border: 1px solid #2ecc71; /* הוספת גבול */
+}
+
+/* עיצוב עבור הודעות המשתמש */
+.user-message {
+    background-color: #d6eaf8; /* צבע רקע כחול בהיר */
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    text-align: left;
+    color: #1f618d;
+    font-size: 16px;
+    border: 1px solid #3498db; /* הוספת גבול */
+}
+
+/* עיצוב כללי לכפתור */
+div.stButton button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* כפתור מעוגל */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px; /* צמצום הריווח בין הכפתורים */
+}
+
+/* מיקום הכפתורים במרכז השורה */
+div.stButton {
+    display: flex;
+    justify-content: center; /* למרכז את הכפתורים */
+}
+
+div.stButton button:hover {
+    background-color: #27ae60;
+}
+
+/* עיצוב לשדה הטקסט */
+div.stTextInput div {
+    border-radius: 10px;
+    border: 1px solid #3498db;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f0f8ff;
+}
